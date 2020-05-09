@@ -1,12 +1,12 @@
-##Raster processing = group
-##Focal statistics = name
-##Raster = raster
-##Type_of_matrix = selection flat;circle;rectangle;Gauss
-##Matrix_distance = number 1
-##Function = selection mean;max;min;sd;median;majority
-##Remove_edge_efects = boolean False
-##Fill_NoData_only = boolean False
-##Filtered = output raster
+##Raster processing=group
+##Focal statistics=name
+##Raster=raster
+##Type_of_matrix=selection flat;circle;rectangle;Gauss
+##Matrix_distance=number 1
+##Function=selection mean;max;min;sd;median;majority
+##Remove_edge_efects=boolean False
+##Fill_NoData_only=boolean False
+##Filtered=output raster
 MtxType <- c("flat","circle","rectangle","Gauss")
 Funs <- c("mean","max","min","sd","median","majority")
 Raster <- Raster[[1]]

@@ -1,13 +1,13 @@
-##Vector processing = group
-##Rasterize and aggregate separated files [Linux paralell] = name
-##Layers = multiple vector
-##Rasterize_field = field Layers
-##Aggregate_fun = selection sum;mean;sd;min;max;median;count
-##Pixel_size_x = number 1.0
-##Pixel_size_y = number 1.0
-##Extent = extent
-##Multicore_processing = boolean False
-##Result = output raster
+##Vector processing=group
+##Rasterize and aggregate separated files [Linux paralell]=name
+##Layers=multiple vector
+##Rasterize_field=field Layers
+##Aggregate_fun=selection sum;mean;sd;min;max;median;count
+##Pixel_size_x=number 1.0
+##Pixel_size_y=number 1.0
+##Extent=extent
+##Multicore_processing=boolean False
+##Result=output raster
 library(doMC)
 library(foreach)
 if(Multicore_processing) registerDoMC(detectCores()-1)

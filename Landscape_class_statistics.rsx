@@ -1,9 +1,9 @@
-##Raster processing = group
-##Landscape class statistics = name
-##Raster = raster
-##Set_background = boolean false
-##Background_value = number
-##Landscape_class_stats = output table
+##Raster processing=group
+##Landscape class statistics=name
+##Raster=raster
+##Set_background=boolean false
+##Background_value=number
+##Landscape_class_stats=output table
 library(SDMTools)
 cs <- res(Raster)
 Background <- NA
